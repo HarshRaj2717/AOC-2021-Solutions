@@ -7,7 +7,7 @@ def main():
     for i in range(len(input_text[0])):
         list1 = []
 
-        for j in range(len(input_text)):
+        for j in range(len(input_text)-1):
             list1.append(input_text[j][i])
 
         if list1.count('0') > list1.count('1'):
